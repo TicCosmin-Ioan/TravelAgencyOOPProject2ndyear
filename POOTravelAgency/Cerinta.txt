@@ -1,0 +1,31 @@
+Travel Agency 
+
+O agentie de voiaj a ales sa satisfaca doua nișe: turismul montan si turismul insulelor.
+Pentru a oferi servicii cat mai bune, agentia va cere fiecarei locatie turistica (Destination) date clare despre aceasta: tara in care se afla destinatia, orasul, dar si denumirea locatiei. De asemenea, se va cunoaste pentru fiecare locatie o lista cu recenziile, dar si pretul sederii pentru o zi.
+
+Locatiile au si particularitati: destinatiile insulare pot fi de doua tipuri: cu iesire la mare, sau cu iesire la ocean. Fiecare in parte va retine si numarul de insule din apropierea locatiei.
+Oricine viziteaza o destinatia montana va stii dinainte inaltimea celui mai apropiat varf montan, distanta pana la acesta, precum si numarul de trasee special amenajate din zona.
+
+Recenziile vor contine numele clientului, durata de sedere (zile) si o nota intra 1 si 10 (ca si cum ar putea oferi jumatati de stele).
+
+Agentia va organiza si reduceri, iar la inceput se va axa pe trei tipuri: MountainsDiscount, IslandsDiscount, PercentileDiscount.
+
+Q. 1. Aceste Discount sunt metode in clasa agency? Sunt date din clasa, un vector de discount-uri sau macar 3 campuri cu un discount din fiecare tip.
+Q. 2. Cum sunt calculate? Sunt citite direct in metodele de adaugare. La ultima cerinta se cere sumarizarea. Veti aplica atunci discountuirle (adica veti gasi pretul exact)
+
+
+Cerintele:
+
+1.Implementati corect si complet ierarhia de clase (40% din punctaj). Aveti grija ca avem si composition, si inheritance.
+Creati si clasa TravelAgency care va putea retine un vector de Destination’s alocate dinamic (10% din punctaj)
+	
+2.Creati un meniu din care utilizatorul sa aiba urmatoarele optiuni:
+	-Adaugarea unei noi destinatii
+	-Stergerea unei destinatii
+	-Afisarea tuturor destinatiilor
+
+3.Creati o metoda a agentiei specifica pentru a seta unul dintre discount-uri (pentru insule, pentru munti, sau procentuale)
+
+Dupa aceea veti crea si o metoda care:
+
+va afisa date despre fiecare destinatie in parte. Dupa fiecare destinatie se va afisa si pretul, la care s-au aplicat NU toate discount-urile din prezent, ci doar pe cel de valoare maxima (trebuie sa testati daca aceste este cel insular sau cel procentual.)

@@ -1,0 +1,11 @@
+﻿  Source.cpp
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(32,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(57,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(81,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(105,96): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(207,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(540,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(550,69): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(563,69): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cosmin - PC\source\repos\POOTravelAgency\POOTravelAgency\Source.cpp(575,80): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  POOTravelAgency.vcxproj -> C:\Users\Cosmin - PC\source\repos\POOTravelAgency\Debug\POOTravelAgency.exe
